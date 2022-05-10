@@ -1,0 +1,64 @@
+body {
+    background: black;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+}
+
+#name {
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+
+#heading {
+    font-size: 2.5rem;
+    font-weight: 600;
+    max-width: 40rem;
+    margin: 4rem 0 0 0;
+}
+
+#highlight {
+    /* Choice of gradients just rearrange order ;) */
+    background-image: linear-gradient(90deg, rgba(44,255,30,1) 0%, rgba(85,255,122,1) 100%);
+    background-image: linear-gradient(90deg, rgba(30,89,255,1) 0%, rgba(85,233,255,1) 100%);
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#join {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin: 1.5rem 0 1.5rem 0;
+}
+
+.join span {
+    text-decoration: underline;
+}
+
+#form {
+    margin: 1rem 0 5rem 0;
+}
+
+.input {
+    min-width: 20rem;
+    margin: 1rem 0 1rem 0;
+    background-color: #2e2e2e;
+    text-indent: 1rem;
+    font-size: 1.5rem;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+}
+
+.button {
+    background-image: linear-gradient(90deg, rgba(30,89,255,1) 0%, rgba(85,233,255,1) 100%);
+    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+}
+
+.text-muted {
+    color: #383838;
+}
